@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/icon_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/item_asmaa"
+        android:icon="@drawable/asmaa_allah_elhosna_icon"
+        android:title="Asmaa Allah ElHosna" />
+    <item
+        android:id="@+id/item_prayer"
+        android:icon="@drawable/carpet_icon"
+        android:title="Prayer Times" />
+    <group >
+        <item
+            android:id="@+id/item_share"
+            android:icon="@drawable/icon_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/item_rate"
+            android:icon="@drawable/icon_rate"
+            android:title="Rate" />
+        <item
+            android:id="@+id/item_reveiw"
+            android:icon="@drawable/icon_reveiw"
+            android:title="Review" />
+        <item
+            android:id="@+id/item_about"
+            android:icon="@drawable/icon_about"
+            android:title="About" />
+        <item
+            android:id="@+id/item_settings"
+            android:icon="@drawable/settings_nav"
+            android:title="Settings" />
+    </group>
+</menu>
